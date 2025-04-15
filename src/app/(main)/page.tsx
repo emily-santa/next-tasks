@@ -1,6 +1,7 @@
-import TaskCard from "@/components/TaskCard/TaskCard";
-import { TaskDocument } from "@/models/task";
+import TaskCard from "../../components/TaskCard/TaskCard";
+import { TaskDocument } from "../../models/task";
 import Link from "next/link";
+import React from "react";
 import { CgAddR } from "react-icons/cg";
 
 const getAllTasks = async (): Promise<TaskDocument[]> => {
